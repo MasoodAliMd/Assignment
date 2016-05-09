@@ -6,6 +6,16 @@ package com.GoJek.DTO;
 public class Slot {
     private boolean parked;
 
+    public int getSlotNumber() {
+        return slotNumber;
+    }
+
+    public void setSlotNumber(int slotNumber) {
+        this.slotNumber = slotNumber;
+    }
+
+    private int slotNumber;
+
     public Car getParkedCar() {
         return parkedCar;
     }
